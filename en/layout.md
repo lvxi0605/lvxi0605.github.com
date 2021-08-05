@@ -1,13 +1,13 @@
 ---
-title: 自定义布局
+title: Custom Layout
 icon: layout
 ---
 
-您可以使用带有 Markdown 支持的插槽来自定义页面布局。
+You can use slots with markdown and component support to custom page layout.
 
 ::: warning
 
-此处仅仅是一个演示，你应该自行根据需求添加样式。
+This is just a demo, you should add styles according to your own needs.
 
 <!-- markdownlint-disable MD033 -->
 
@@ -37,62 +37,62 @@ icon: layout
 
 ::: slot page-top
 
-页面顶部内容
+Page top content
 
 :::
 
 ::: slot page-bottom
 
-页面底部内容
+Page bottom content
 
 :::
 
 ::: slot content-top
 
-内容顶部内容
+Content top content
 
 :::
 
 ::: slot content-bottom
 
-内容底部内容
+Content bottom content
 
 :::
 
 ::: slot navbar-start
 
-导航栏起始内容
+Navbar start content
 
 :::
 
 ::: slot navbar-center
 
-导航栏中部内容
+Navbar center content
 
 :::
 
 ::: slot navbar-end
 
-导航栏末尾内容
+Navbar end content
 
 :::
 
 ::: slot sidebar-top
 
-侧边栏顶部内容
+Sidebar top content
 
 :::
 
 ::: slot sidebar-center
 
-侧边栏中部内容
+Sidebar center content
 
 :::
 
 ::: slot sidebar-bottom
 
-侧边栏底部内容
+Sidebar bottom content
 
 :::
 
-更多详情，详见 [自定义布局](https://vuepress-theme-hope.github.io/zh/guide/layout/custom/).
+For details, see [Custom layout](https://vuepress-theme-hope.github.io/guide/layout/custom/).

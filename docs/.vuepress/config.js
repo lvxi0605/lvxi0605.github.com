@@ -1,8 +1,8 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
-  title: "Theme Demo",
-  description: "A demo for vuepress-theme-hope",
+  title: "Lvxi",
+  description: "吕茜的个人博客，记录学习、工作、生活点滴。",
 
   dest: "./dist",
 
@@ -26,36 +26,39 @@ module.exports = config({
 
   locales: {
     "/": {
-      lang: "en-US",
-    },
-    "/zh/": {
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
-    },
+      lang: "zh-CN",
+    }
   },
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    hostname: "https://gitee.com/lvxi/vuepress-xiblog",
+    author: "lvxi",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
-
+    repoDisplay: false,
+    repo: "https://gitee.com/lvxi/vuepress-xiblog",
+    docsDir: "docs",
+    // 假如文档放在一个特定的分支下，默认为 'main':
+    docsBranch: "master",
+    // 默认是 false, 设置为 true 来启用
+    editLinks: true,
+    // 默认为 "Edit this page"
+    editLinkText: "帮助我们改善此页面！",
     nav: [
-      { text: "Blog Home", link: "/", icon: "home" },
-      { text: "Project Home", link: "/home/", icon: "home" },
+      { text: "主页", link: "/", icon: "home" },
+      { text: "时间轴", link: "/timeline/", icon: "ic_normal_shijianzhou" },
       {
-        text: "Guide",
+        text: "如何使用",
         icon: "creative",
         link: "/guide/",
       },
       {
-        text: "Docs",
-        link: "https://vuepress-theme-hope.github.io/",
+        text: "主题文档",
         icon: "note",
+        link: "https://vuepress-theme-hope.github.io/zh/",
       },
     ],
-
+    /*
     sidebar: {
       "/": [
         "",
@@ -63,14 +66,15 @@ module.exports = config({
         "slides",
         "layout",
         {
-          title: "Guide",
+          title: "如何使用",
           icon: "creative",
           prefix: "guide/",
           children: ["", "page", "markdown", "disable", "encrypt"],
         },
       ],
     },
-
+    */
+/*
     locales: {
       "/zh/": {
         nav: [
@@ -103,7 +107,7 @@ module.exports = config({
         },
       },
     },
-
+*/
     blog: {
       intro: "/intro/",
       sidebarDisplay: "mobile",
