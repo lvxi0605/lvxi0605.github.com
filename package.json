@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --no-cache",
+    "docs:eject-theme": "vuepress eject-hope docs"
   },
   "repository": "git@gitee.com:lvxi/vuepress-xiblog.git",
   "author": "lvxi",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.19.0"
   }
 }
