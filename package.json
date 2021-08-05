@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev E:\\Workspace\\vscode\\vuepress-xiblog",
+    "docs:build": "vuepress build E:\\Workspace\\vscode\\vuepress-xiblog",
+    "docs:clean-dev": "vuepress dev E:\\Workspace\\vscode\\vuepress-xiblog --no-cache",
+    "docs:eject-theme": "vuepress eject-hope E:\\Workspace\\vscode\\vuepress-xiblog"
   },
   "repository": "git@gitee.com:lvxi/vuepress-xiblog.git",
   "author": "lvxi",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-theme-hope": "^1.19.0"
   }
 }
