@@ -1,0 +1,8 @@
+<svg  height="60" width="200" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+  <title >lvxiblog - 博客记录美好生活</title>
+  <desc >博客记录美好生活</desc>
+  <image xlink:href="$withBase('/logo.png')" x="0" y="5" height="50" width="50"/>
+  <text x="50" y="40" style="fill:#5cadff;font-size:30px;font-family:hy-lmt;stroke:none;">
+    Lvxi's blog
+  </text>
+</svg>
