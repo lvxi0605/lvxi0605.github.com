@@ -2,7 +2,7 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   title: "Lvxi",
-  description: "吕茜的个人博客，记录学习、工作、生活点滴。",
+  description: "记录学习、工作、生活。",
 
   dest: "./dist",
 
@@ -46,7 +46,9 @@ module.exports = config({
     editLinkText: "帮助我们改善此页面！",
     nav: [
       { text: "主页", link: "/", icon: "home" },
-      { text: "时间轴", link: "/timeline/", icon: "ic_normal_shijianzhou" },
+      { text: "时间轴", link: "/timeline/", icon: "timeline" },
+      { text: "关于", link: "/about", icon: "about" },
+/*
       {
         text: "如何使用",
         icon: "creative",
@@ -57,6 +59,7 @@ module.exports = config({
         icon: "note",
         link: "https://vuepress-theme-hope.github.io/zh/",
       },
+*/
     ],
     /*
     sidebar: {
@@ -112,9 +115,9 @@ module.exports = config({
       intro: "/intro/",
       sidebarDisplay: "mobile",
       links: {
-        Zhihu: "https://zhihu.com",
-        Baidu: "https://baidu.com",
-        Github: "https://github.com",
+        Email: "mailto:a874047493@qq.com",
+        Gitee: "https://gitee.com/lvxi",
+        Github: "https://github.com/lvxi0605",
       },
     },
 
