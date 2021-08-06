@@ -120,7 +120,10 @@ module.exports = config({
         Github: "https://github.com/lvxi0605",
       },
     },
-
+    algolia: {
+      apiKey: "d131d055e1f8f2c602329fbc040883f1",
+      indexName: "vuepress-xiblog",
+    },
     footer: {
       display: true,
       content: "默认页脚",
