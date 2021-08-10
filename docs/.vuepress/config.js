@@ -1,8 +1,9 @@
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
+  typescript:true,
   title: "Lvxi",
-  description: "记录学习、工作、生活。",
+  description: "学习、工作、生活。",
 
   dest: "./dist",
 
