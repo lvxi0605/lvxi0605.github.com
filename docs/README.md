@@ -5,6 +5,7 @@ icon: home
 title: 博客主页
 #heroImage: /logo.svg
 #heroText: Lvxi
+showTitle: false
 heroFullScreen: false
 tagline: 你可以在这里放置你的口号与标语
 # project:
