@@ -46,7 +46,7 @@ export default Vue.extend({
                             event.preventDefault();
                         if (this.$router
                             .getRoutes()
-                            .some((route) => route.path === hitPathname))
+                            .some((route) => route.path.replace(/index\.html$/, "") === hitPathname))
                             void this.$router.push(hit.url);
                         else
                             window.open(fullPath);

@@ -3,7 +3,7 @@ import ArticleInfo from "@theme/components/Blog/ArticleInfo.vue";
 import LockIcon from "@theme/icons/LockIcon.vue";
 import PresentationIcon from "@theme/icons/PresentationIcon.vue";
 import StickyIcon from "@theme/icons/StickyIcon.vue";
-import { getPathMatchedKeys } from "@theme/util/encrypt";
+import { getPathMatchedKeys } from "@theme/utils/encrypt";
 export default Vue.extend({
     name: "ArticleItem",
     components: { ArticleInfo, LockIcon, StickyIcon, PresentationIcon },

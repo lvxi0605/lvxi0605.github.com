@@ -2,7 +2,7 @@ import Vue from "vue";
 import DropdownLink from "@theme/components/Navbar/DropdownLink.vue";
 import I18nIcon from "@theme/icons/I18nIcon.vue";
 import NavLink from "@theme/components/Navbar/NavLink.vue";
-import { getNavLinkItem } from "@theme/util/navbar";
+import { getNavLinkItem } from "@theme/utils/navbar";
 export default Vue.extend({
     name: "LanguageDropdown",
     components: { NavLink, DropdownLink },

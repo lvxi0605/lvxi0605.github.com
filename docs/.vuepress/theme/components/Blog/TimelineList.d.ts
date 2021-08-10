@@ -1,7 +1,10 @@
-import { TimelineMixin } from "@theme/util/articleMixin";
-declare const TimelineList_base: import("vue-class-component/lib/declarations").VueClass<TimelineMixin>;
-export default class TimelineList extends TimelineList_base {
-    get hint(): string;
+import MyTransition from "@theme/components/MyTransition.vue";
+declare const _default: import("vue/types/vue").ExtendedVue<{
+    $timelineItems: import("@mr-hope/vuepress-types").PageComputed[];
+    $timeline: import("@theme/mixins/timeline").TimelineItem[];
+} & Record<never, any> & MyTransition, unknown, {
     navigate(url: string): void;
-}
-export {};
+}, {
+    hint: string;
+}, Record<never, any>>;
+export default _default;

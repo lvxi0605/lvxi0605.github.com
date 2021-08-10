@@ -1,10 +1,25 @@
-import { StarMixin } from "@theme/util/articleMixin";
-declare const BlogInfo_base: import("vue-class-component/lib/declarations").VueClass<StarMixin>;
-export default class BlogInfo extends BlogInfo_base {
-    private active;
-    private get i18n();
-    private get articleNumber();
-    private setActive;
-    private navigate;
-}
-export {};
+import ArticleIcon from "@theme/icons/ArticleIcon.vue";
+declare const _default: import("vue/types/vue").ExtendedVue<{
+    $starArticles: import("@mr-hope/vuepress-types").PageComputed[];
+} & Record<never, any> & ArticleIcon, {
+    active: string;
+}, {
+    setActive(name: string): void;
+    navigate(path: string): void;
+}, {
+    i18n: {
+        article: string;
+        articleList: string;
+        category: string;
+        tag: string;
+        timeline: string;
+        timelineText: string;
+        allText: string;
+        intro: string;
+        star: string;
+        slides: string;
+        encrypt: string;
+    };
+    articleNumber: number;
+}, Record<never, any>>;
+export default _default;

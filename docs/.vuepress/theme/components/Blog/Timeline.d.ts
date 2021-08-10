@@ -1,9 +1,12 @@
-import { TimelineMixin } from "@theme/util/articleMixin";
-import type { SidebarHeader } from "@theme/util/groupHeader";
-declare const Timeline_base: import("vue-class-component/lib/declarations").VueClass<TimelineMixin>;
-export default class Timeline extends Timeline_base {
-    get hint(): string;
-    get anchorConfig(): SidebarHeader[];
+import Anchor from "@theme/components/Anchor.vue";
+import type { SidebarHeader } from "@theme/utils/groupHeader";
+declare const _default: import("vue/types/vue").ExtendedVue<{
+    $timelineItems: import("@mr-hope/vuepress-types").PageComputed[];
+    $timeline: import("@theme/mixins/timeline").TimelineItem[];
+} & Record<never, any> & Anchor, unknown, {
     navigate(url: string): void;
-}
-export {};
+}, {
+    hint: string;
+    anchorConfig: SidebarHeader[];
+}, Record<never, any>>;
+export default _default;

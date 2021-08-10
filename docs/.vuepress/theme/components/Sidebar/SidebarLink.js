@@ -1,6 +1,6 @@
 import Vue from "vue";
-import { hashRE, isActive } from "@theme/util/path";
-import { groupSidebarHeaders } from "@theme/util/sidebar";
+import { hashRE, isActive } from "@theme/utils/path";
+import { groupSidebarHeaders } from "@theme/utils/sidebar";
 const renderIcon = (h, icon) => icon
     ? h("i", {
         class: ["iconfont", icon],

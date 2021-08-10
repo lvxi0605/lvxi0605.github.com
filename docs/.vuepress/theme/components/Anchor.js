@@ -1,5 +1,5 @@
 import Vue from "vue";
-import { isActive } from "@theme/util/path";
+import { isActive } from "@theme/utils/path";
 const renderLink = (h, { text, link, level }) => h("RouterLink", {
     props: {
         to: link,

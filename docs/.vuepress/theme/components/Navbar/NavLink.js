@@ -1,5 +1,5 @@
 import Vue from "vue";
-import { ensureExt, isExternal, isMailto, isTel } from "@theme/util/path";
+import { ensureExt, isExternal, isMailto, isTel } from "@theme/utils/path";
 export default Vue.extend({
     name: "NavLink",
     props: {

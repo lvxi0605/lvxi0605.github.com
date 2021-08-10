@@ -1,7 +1,7 @@
 import Vue from "vue";
 import DropdownLink from "@theme/components/Navbar/DropdownLink.vue";
 import NavLink from "@theme/components/Navbar/NavLink.vue";
-import { getNavLinkItem } from "@theme/util/navbar";
+import { getNavLinkItem } from "@theme/utils/navbar";
 export default Vue.extend({
     name: "NavLinks",
     components: {

@@ -1,7 +1,7 @@
 import Vue from "vue";
 import SidebarGroup from "@theme/components/Sidebar/SidebarGroup.vue";
 import SidebarLink from "@theme/components/Sidebar/SidebarLink.vue";
-import { isActive } from "@theme/util/path";
+import { isActive } from "@theme/utils/path";
 const descendantIsActive = (route, item) => {
     if (item.type === "group")
         return item.children.some((child) => {

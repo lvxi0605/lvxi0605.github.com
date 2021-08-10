@@ -1,8 +1,8 @@
 import Vue from "vue";
 import NextIcon from "@theme/icons/NextIcon.vue";
 import PrevIcon from "@theme/icons/PrevIcon.vue";
-import { resolvePath } from "@theme/util/path";
-import { resolvePageforSidebar } from "@theme/util/sidebar";
+import { resolvePath } from "@theme/utils/path";
+import { resolvePageforSidebar } from "@theme/utils/sidebar";
 const getSidebarItems = (items, result) => {
     for (const item of items)
         if (item.type === "group")

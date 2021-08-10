@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import Vue from "vue";
 import DropdownTransition from "@theme/components/Sidebar/DropdownTransition.vue";
-import { isActive } from "@theme/util/path";
+import { isActive } from "@theme/utils/path";
 export default Vue.extend({
     name: "SidebarGroup",
     components: { DropdownTransition },

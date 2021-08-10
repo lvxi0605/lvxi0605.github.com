@@ -1,23 +1,36 @@
-import GlobalEncryptMixin from "@theme/util/globalEncryptMixin";
-declare const Common_base: import("vue-class-component/lib/declarations").VueClass<GlobalEncryptMixin>;
-export default class Common extends Common_base {
-    private readonly navbar;
-    private readonly sidebar;
-    private isSidebarOpen;
-    private hideNavbar;
-    private touchStart;
-    private get enableNavbar();
-    private get enableSidebar();
-    private get sidebarItems();
-    private get pageClasses();
-    private get headers();
-    private get enableAnchor();
+import Navbar from "@theme/components/Navbar/Navbar.vue";
+import type { SidebarItem, SidebarHeader } from "@theme/utils/sidebar";
+declare const _default: import("vue/types/vue").ExtendedVue<{
+    globalEncryptPassword: string;
+} & {
+    checkGlobalPassword(globalPassword: string): void;
+} & {
+    isGlobalEncrypted: boolean;
+} & Record<never, any> & {
+    encryptOptions: import("../types").EncryptOptions;
+} & Navbar, {
+    isSidebarOpen: boolean;
+    hideNavbar: boolean;
+    touchStart: {
+        clientX: number;
+        clientY: number;
+    };
+}, {
     /** Get scroll distance */
-    private getScrollTop;
-    protected mounted(): void;
-    private toggleSidebar;
-    private onTouchStart;
-    private onTouchEnd;
-    private getHeader;
-}
-export {};
+    getScrollTop(): number;
+    toggleSidebar(to: boolean): void;
+    onTouchStart(event: TouchEvent): void;
+    onTouchEnd(event: TouchEvent): void;
+    getHeader(items: SidebarItem[]): SidebarHeader[];
+}, {
+    enableNavbar: boolean;
+    enableSidebar: boolean;
+    sidebarItems: SidebarItem[];
+    pageClasses: unknown;
+    headers: SidebarHeader[];
+    enableAnchor: boolean;
+}, {
+    navbar: boolean;
+    sidebar: boolean;
+}>;
+export default _default;

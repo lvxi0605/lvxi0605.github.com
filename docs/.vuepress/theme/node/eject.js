@@ -18,7 +18,7 @@ const EXCLUDED_FILES = [
 const eject = async (dir) => {
     try {
         const sourceDir = path_1.resolve(__dirname, "../");
-        const targetDir = path_1.resolve(path_1.resolve(dir), ".vuepress/theme");
+        const targetDir = path_1.resolve(process.cwd(), dir, ".vuepress/theme");
         await fs_extra_1.copy(sourceDir, targetDir, {
             filter: (src) => {
                 return !EXCLUDED_FILES.includes(path_1.relative(sourceDir, src));

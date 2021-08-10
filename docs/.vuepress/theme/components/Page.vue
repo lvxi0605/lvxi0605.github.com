@@ -18,6 +18,14 @@
       />
     </MyTransition>
 
+    <MyTransition v-else-if="isPathEncrypted" :delay="0.08">
+      <Password
+        :key="$route.path"
+        :page="true"
+        @password-verify="checkPathPassword"
+      />
+    </MyTransition>
+
     <template v-else>
       <MyTransition :delay="0.12">
         <Anchor :key="$route.path" />
@@ -66,13 +74,13 @@
   @media (max-width $MQNarrow)
     padding-left $mobileSidebarWidth
 
-  @media (min-width ($MQMobile + 1px))
-    .theme-container:not(.has-sidebar) &
-      padding-left 0
-
   // wide mobile
   @media (max-width $MQMobile)
     padding-left 0
+
+  @media (min-width $MQMobile)
+    .theme-container:not(.has-sidebar) &
+      padding-left 0
 
   @media (min-width $MQWide)
     .has-anchor &:not(.blog)

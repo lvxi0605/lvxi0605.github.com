@@ -1,7 +1,16 @@
-import Vue from "vue";
+import Anchor from "@theme/components/Anchor.vue";
 import type { PageHeader } from "@mr-hope/vuepress-types";
-import type { SidebarItem } from "@theme/util/sidebar";
-declare const _default: import("vue/types/vue").ExtendedVue<Vue, {
+import type { SidebarItem } from "@theme/utils/sidebar";
+declare const _default: import("vue/types/vue").ExtendedVue<{
+    encryptPasswordConfig: Record<string, string>;
+} & {
+    checkPathPassword(password: string): void;
+} & {
+    pathEncryptMatchKeys: string[];
+    isPathEncrypted: boolean;
+} & Record<never, any> & {
+    encryptOptions: import("../types").EncryptOptions;
+} & Anchor, {
     password: string;
 }, unknown, {
     pagePassword: string;

@@ -1,5 +1,5 @@
 import Vue from "vue";
-import type { NavBarConfigItem } from "@theme/util/navbar";
+import type { NavBarConfigItem } from "@theme/utils/navbar";
 declare const _default: import("vue/types/vue").ExtendedVue<Vue, unknown, {
     focusoutAction(): void;
 }, {
