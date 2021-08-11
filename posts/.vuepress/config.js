@@ -32,7 +32,7 @@ module.exports = config({
 
   themeConfig: {
     logo: "/logo.svg",
-    hostname: "https://gitee.com/lvxi/vuepress-xiblog",
+    hostname: "https://lvxi0605.github.io",
     author: "lvxi",
 
     repoDisplay: false,

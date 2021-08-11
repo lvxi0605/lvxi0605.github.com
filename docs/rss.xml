@@ -1,24 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://gitee.com/lvxi/vuepress-xiblog/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://lvxi0605.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <title>Lvxi</title>
-    <link>https://gitee.com/lvxi/vuepress-xiblog/</link>
+    <link>https://lvxi0605.github.io/</link>
     <description>学习、工作、生活。</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 11 Aug 2021 13:54:10 GMT</pubDate>
-    <lastBuildDate>Wed, 11 Aug 2021 13:54:10 GMT</lastBuildDate>
+    <pubDate>Wed, 11 Aug 2021 15:07:29 GMT</pubDate>
+    <lastBuildDate>Wed, 11 Aug 2021 15:07:29 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by lvxi</copyright>
     <category>测试</category>
     <item>
+      <title>主页</title>
+      <link>https://lvxi0605.github.io/</link>
+      <guid>https://lvxi0605.github.io/</guid>
+      <source url="https://lvxi0605.github.io/rss.xml">主页</source>
+      <pubDate>Wed, 11 Aug 2021 13:57:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://lvxi0605.github.io/about/</link>
+      <guid>https://lvxi0605.github.io/about/</guid>
+      <source url="https://lvxi0605.github.io/rss.xml">关于</source>
+      <pubDate>Wed, 11 Aug 2021 13:57:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>哈哈哈哈哈哈哈
+哈哈哈哈哈哈哈</p>
+<p>哈哈哈哈哈哈哈</p>
+<p>哈哈哈哈哈哈哈</p>
+<p>哈哈哈哈哈哈哈</p>
+<p>哈哈哈哈哈哈哈</p>
+<p>哈哈哈哈哈哈哈</p>
+<p>哈哈哈哈哈哈哈</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>这是一个测试的文章</title>
-      <link>https://gitee.com/lvxi/vuepress-xiblog/posts/test/</link>
-      <guid>https://gitee.com/lvxi/vuepress-xiblog/posts/test/</guid>
-      <source url="https://gitee.com/lvxi/vuepress-xiblog/rss.xml">这是一个测试的文章</source>
+      <link>https://lvxi0605.github.io/posts/test/</link>
+      <guid>https://lvxi0605.github.io/posts/test/</guid>
+      <source url="https://lvxi0605.github.io/rss.xml">这是一个测试的文章</source>
       <category>测试</category>
-      <content:encoded><![CDATA[<h2 id="这是一个测试的文章"> 这是一个测试的文章</h2>
+      <pubDate>Wed, 11 Aug 2021 13:57:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>测试文章简介</p>
+
 <h3 id="测试一-js"> 测试一 js</h3>
 <p>ok</p>
 <div><pre><code><span>let</span> a <span>=</span> <span>0</span><span>;</span>
@@ -32,27 +57,6 @@ console<span>.</span><span>log</span><span>(</span>b<span>)</span><span>;</span>
 <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span>a<span>)</span><span>;</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
-      <title>主页</title>
-      <link>https://gitee.com/lvxi/vuepress-xiblog/</link>
-      <guid>https://gitee.com/lvxi/vuepress-xiblog/</guid>
-      <source url="https://gitee.com/lvxi/vuepress-xiblog/rss.xml">主页</source>
-    </item>
-    <item>
-      <title>关于</title>
-      <link>https://gitee.com/lvxi/vuepress-xiblog/about/</link>
-      <guid>https://gitee.com/lvxi/vuepress-xiblog/about/</guid>
-      <source url="https://gitee.com/lvxi/vuepress-xiblog/rss.xml">关于</source>
-      <content:encoded><![CDATA[<p>哈哈哈哈哈哈哈
-哈哈哈哈哈哈哈</p>
-<p>哈哈哈哈哈哈哈</p>
-<p>哈哈哈哈哈哈哈</p>
-<p>哈哈哈哈哈哈哈</p>
-<p>哈哈哈哈哈哈哈</p>
-<p>哈哈哈哈哈哈哈</p>
-<p>哈哈哈哈哈哈哈</p>
-]]></content:encoded>
     </item>
   </channel>
 </rss>

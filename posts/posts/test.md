@@ -1,12 +1,14 @@
 ---
+title: 这是一个测试的文章
 category: 测试
 tags:
   - lvxi
   - 测试
   - rss
 ---
-## 这是一个测试的文章
+测试文章简介
 
+<!--more-->
 ### 测试一 js
 ok
 ```javascript

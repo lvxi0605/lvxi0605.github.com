@@ -1,34 +1,20 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Lvxi",
-  "home_page_url": "https://gitee.com/lvxi/vuepress-xiblog/",
-  "feed_url": "https://gitee.com/lvxi/vuepress-xiblog/feed.json",
+  "home_page_url": "https://lvxi0605.github.io/",
+  "feed_url": "https://lvxi0605.github.io/feed.json",
   "description": "学习、工作、生活。",
   "author": {
     "name": "lvxi"
   },
   "items": [
     {
-      "title": "这是一个测试的文章",
-      "url": "https://gitee.com/lvxi/vuepress-xiblog/posts/test/",
-      "id": "https://gitee.com/lvxi/vuepress-xiblog/posts/test/",
-      "content_html": "<h2 id=\"这是一个测试的文章\"> 这是一个测试的文章</h2>\n<h3 id=\"测试一-js\"> 测试一 js</h3>\n<p>ok</p>\n<div><pre><code><span>let</span> a <span>=</span> <span>0</span><span>;</span>\na <span>=</span> <span>2</span><span>;</span>\n<span>let</span> b <span>=</span><span>'hello world'</span><span>;</span>\nconsole<span>.</span><span>log</span><span>(</span>b<span>)</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id=\"测试二-java\"> 测试二 java</h3>\n<p>ok</p>\n<div><pre><code><span>String</span> a <span>=</span> <span>\"hello world\"</span><span>;</span>\n<span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span>a<span>)</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br></div></div>",
-      "date_modified": "2021-08-11T13:56:58.526Z",
-      "authors": [
-        {
-          "name": "lvxi"
-        }
-      ],
-      "tags": [
-        "测试"
-      ]
-    },
-    {
       "title": "主页",
-      "url": "https://gitee.com/lvxi/vuepress-xiblog/",
-      "id": "https://gitee.com/lvxi/vuepress-xiblog/",
+      "url": "https://lvxi0605.github.io/",
+      "id": "https://lvxi0605.github.io/",
       "content_html": "",
-      "date_modified": "2021-08-11T13:56:58.547Z",
+      "date_published": "2021-08-11T13:57:31.000Z",
+      "date_modified": "2021-08-11T13:57:31.000Z",
       "authors": [
         {
           "name": "lvxi"
@@ -38,16 +24,33 @@
     },
     {
       "title": "关于",
-      "url": "https://gitee.com/lvxi/vuepress-xiblog/about/",
-      "id": "https://gitee.com/lvxi/vuepress-xiblog/about/",
+      "url": "https://lvxi0605.github.io/about/",
+      "id": "https://lvxi0605.github.io/about/",
       "content_html": "<p>哈哈哈哈哈哈哈\n哈哈哈哈哈哈哈</p>\n<p>哈哈哈哈哈哈哈</p>\n<p>哈哈哈哈哈哈哈</p>\n<p>哈哈哈哈哈哈哈</p>\n<p>哈哈哈哈哈哈哈</p>\n<p>哈哈哈哈哈哈哈</p>\n<p>哈哈哈哈哈哈哈</p>\n",
-      "date_modified": "2021-08-11T13:56:58.549Z",
+      "date_published": "2021-08-11T13:57:31.000Z",
+      "date_modified": "2021-08-11T13:57:31.000Z",
       "authors": [
         {
           "name": "lvxi"
         }
       ],
       "tags": []
+    },
+    {
+      "title": "这是一个测试的文章",
+      "url": "https://lvxi0605.github.io/posts/test/",
+      "id": "https://lvxi0605.github.io/posts/test/",
+      "content_html": "<p>测试文章简介</p>\n\n<h3 id=\"测试一-js\"> 测试一 js</h3>\n<p>ok</p>\n<div><pre><code><span>let</span> a <span>=</span> <span>0</span><span>;</span>\na <span>=</span> <span>2</span><span>;</span>\n<span>let</span> b <span>=</span><span>'hello world'</span><span>;</span>\nconsole<span>.</span><span>log</span><span>(</span>b<span>)</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id=\"测试二-java\"> 测试二 java</h3>\n<p>ok</p>\n<div><pre><code><span>String</span> a <span>=</span> <span>\"hello world\"</span><span>;</span>\n<span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span>a<span>)</span><span>;</span>\n</code></pre>\n<div><span>1</span><br><span>2</span><br></div></div>",
+      "date_published": "2021-08-11T13:57:31.000Z",
+      "date_modified": "2021-08-11T13:57:31.000Z",
+      "authors": [
+        {
+          "name": "lvxi"
+        }
+      ],
+      "tags": [
+        "测试"
+      ]
     }
   ]
 }
