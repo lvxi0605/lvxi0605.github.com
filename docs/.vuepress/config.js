@@ -28,6 +28,7 @@ module.exports = config({
   locales: {
     "/": {
       lang: "zh-CN",
+      title:'Lvxi' 
     }
   },
 

@@ -6,23 +6,23 @@ const plugins_1 = require("./node/plugins");
 const blogAddtionalPages = [
     {
         path: "/article/",
-        frontmatter: { layout: "Blog" },
+        frontmatter: { layout: "Blog" ,title:'全部文章'},
     },
     {
         path: "/star/",
-        frontmatter: { layout: "Blog" },
+        frontmatter: { layout: "Blog",title:'收藏文章' },
     },
-    {
-        path: "/encrypt/",
-        frontmatter: { layout: "Blog" },
-    },
-    {
-        path: "/slide/",
-        frontmatter: { layout: "Blog" },
-    },
+    // {
+    //     path: "/encrypt/",
+    //     frontmatter: { layout: "Blog" },
+    // },
+    // {
+    //     path: "/slide/",
+    //     frontmatter: { layout: "Blog" },
+    // },
     {
         path: "/timeline/",
-        frontmatter: { layout: "Blog" },
+        frontmatter: { layout: "Blog",title:'时间轴' },
     },
 ];
 // Theme API.
