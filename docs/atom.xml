@@ -6,7 +6,7 @@
   <author>
     <name>lvxi</name>
   </author>
-  <updated>2021-08-11T15:07:29.925Z</updated>
+  <updated>2021-08-11T15:23:44.482Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://lvxi0605.github.io/atom.xml"/>
   <link rel="alternate" href="https://lvxi0605.github.io/"/>
@@ -15,20 +15,6 @@
   <contributor>
     <name>lvxi</name>
   </contributor>
-  <entry>
-    <title type="html">主页</title>
-    <id>https://lvxi0605.github.io/</id>
-    <link href="https://lvxi0605.github.io/"/>
-    <updated>2021-08-11T13:57:31.000Z</updated>
-    <author>
-      <name>lvxi</name>
-    </author>
-    <contributor>
-      <name>lvxi</name>
-    </contributor>
-    <published>2021-08-11T13:57:31.000Z</published>
-    <rights>Copyright by lvxi</rights>
-  </entry>
   <entry>
     <title type="html">关于</title>
     <id>https://lvxi0605.github.io/about/</id>
@@ -53,10 +39,24 @@
     <rights>Copyright by lvxi</rights>
   </entry>
   <entry>
+    <title type="html">主页</title>
+    <id>https://lvxi0605.github.io/</id>
+    <link href="https://lvxi0605.github.io/"/>
+    <updated>2021-08-11T13:57:31.000Z</updated>
+    <author>
+      <name>lvxi</name>
+    </author>
+    <contributor>
+      <name>lvxi</name>
+    </contributor>
+    <published>2021-08-11T13:57:31.000Z</published>
+    <rights>Copyright by lvxi</rights>
+  </entry>
+  <entry>
     <title type="html">这是一个测试的文章</title>
     <id>https://lvxi0605.github.io/posts/test/</id>
     <link href="https://lvxi0605.github.io/posts/test/"/>
-    <updated>2021-08-11T13:57:31.000Z</updated>
+    <updated>2021-08-11T15:09:54.000Z</updated>
     <content type="html"><![CDATA[<p>测试文章简介</p>
 
 <h3 id="测试一-js"> 测试一 js</h3>

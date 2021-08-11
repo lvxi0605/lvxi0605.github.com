@@ -37,13 +37,20 @@ module.exports = config({
 
     repoDisplay: false,
     repo: "https://gitee.com/lvxi/vuepress-xiblog",
-    docsDir: "docs",
+    docsDir: "posts",
     // 假如文档放在一个特定的分支下，默认为 'main':
     docsBranch: "master",
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
     editLinkText: "帮助我们改善此页面！",
+     
+    comment: {
+      type: "Vssue", // "valine" 或 "vssue"
+      // valine 模式下
+      appId: "...", // your appId
+      appKey: "...", // your appKey
+    },
     nav: [
       { text: "主页", link: "/", icon: "home" },
       { text: "时间轴", link: "/timeline/", icon: "timeline" },
