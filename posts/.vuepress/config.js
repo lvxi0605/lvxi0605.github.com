@@ -2,6 +2,19 @@ const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
   typescript:true,
+  plugins: {
+    "@mr-hope/comment": {
+      type: "vssue",
+      // set `platform` rather than `api`
+      platform: "github",
+
+      // all other options of Vssue are allowed
+      owner: "lvxi0605",
+      repo: "lvxi0605.github.com",
+      clientId: "131536",
+      clientSecret: "Iv1.b9618a254f90ff0c",
+    },
+  },
   title: "Lvxi",
   description: "学习、工作、生活。",
   dest: "./docs",
@@ -47,9 +60,6 @@ module.exports = config({
      
     comment: {
       type: "Vssue", // "valine" 或 "vssue"
-      // valine 模式下
-      appId: "...", // your appId
-      appKey: "...", // your appKey
     },
     nav: [
       { text: "主页", link: "/", icon: "home" },
