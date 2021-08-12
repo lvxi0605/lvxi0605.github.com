@@ -11,8 +11,8 @@ module.exports = config({
       // all other options of Vssue are allowed
       owner: "lvxi0605",
       repo: "lvxi0605.github.com",
-      clientId: "131536",
-      clientSecret: "Iv1.b9618a254f90ff0c",
+      clientId: "e59001f499867faabc38",
+      clientSecret: "bbb2ca3474f88d35383e67590b31605eea959427",
     },
   },
   title: "Lvxi",
