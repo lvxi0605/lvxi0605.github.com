@@ -82,7 +82,7 @@
     .theme-container:not(.has-sidebar) &
       padding-left 0
 
-  @media (min-width $MQWide)
-    .has-anchor &:not(.blog)
-      padding-right 16rem
+  // @media (min-width $MQWide)
+  //   .has-anchor &:not(.blog)
+  //     padding-right 16rem
 </style>

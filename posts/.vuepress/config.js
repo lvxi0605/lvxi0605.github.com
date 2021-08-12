@@ -1,9 +1,8 @@
 const { config } = require("vuepress-theme-hope");
-
 module.exports = config({
   typescript:true,
   plugins: {
-    "@mr-hope/comment": {
+    "@mr-hope/vuepress-plugin-comment": {
       type: "vssue",
       // set `platform` rather than `api`
       platform: "github",
@@ -13,7 +12,11 @@ module.exports = config({
       repo: "lvxi0605.github.com",
       clientId: "e59001f499867faabc38",
       clientSecret: "bbb2ca3474f88d35383e67590b31605eea959427",
+      autoCreateIssue:true
     },
+  },
+   chainWebpack: (config, isServer) => {
+   
   },
   title: "Lvxi",
   description: "学习、工作、生活。",
