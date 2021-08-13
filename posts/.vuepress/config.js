@@ -132,7 +132,7 @@ module.exports = config({
     },
 */
     blog: {
-      intro: "/intro/",
+      intro: "/about/",
       sidebarDisplay: "mobile",
       links: {
         Email: "mailto:a874047493@qq.com",
@@ -140,18 +140,13 @@ module.exports = config({
         Github: "https://github.com/lvxi0605",
       },
     },
-    algolia: {
-      apiKey: "d131d055e1f8f2c602329fbc040883f1",
-      indexName: "vuepress-xiblog",
-    },
+    // algolia: {
+    //   apiKey: "d131d055e1f8f2c602329fbc040883f1",
+    //   indexName: "vuepress-xiblog",
+    // },
     footer: {
       display: true,
       content: "默认页脚",
-    },
-
-    comment: {
-      type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
     },
 
     copyright: {
