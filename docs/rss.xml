@@ -6,8 +6,8 @@
     <link>https://lvxi0605.github.io/</link>
     <description>学习、工作、生活。</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Aug 2021 03:35:48 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Aug 2021 03:35:48 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Aug 2021 00:51:49 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Aug 2021 00:51:49 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by lvxi</copyright>
@@ -55,8 +55,9 @@ console<span>.</span><span>log</span><span>(</span>b<span>)</span><span>;</span>
 <p>ok</p>
 <div><pre><code><span>String</span> a <span>=</span> <span>"hello world"</span><span>;</span>
 <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span>a<span>)</span><span>;</span>
+<span>//测试更新</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br></div></div>]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
     </item>
   </channel>
 </rss>

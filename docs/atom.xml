@@ -6,7 +6,7 @@
   <author>
     <name>lvxi</name>
   </author>
-  <updated>2021-08-12T03:35:48.761Z</updated>
+  <updated>2021-08-13T00:51:49.233Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://lvxi0605.github.io/atom.xml"/>
   <link rel="alternate" href="https://lvxi0605.github.io/"/>
@@ -33,7 +33,7 @@
     <title type="html">关于</title>
     <id>https://lvxi0605.github.io/about/</id>
     <link href="https://lvxi0605.github.io/about/"/>
-    <updated>2021-08-11T13:57:31.000Z</updated>
+    <updated>2021-08-12T03:36:51.000Z</updated>
     <content type="html"><![CDATA[<p>哈哈哈哈哈哈哈
 哈哈哈哈哈哈哈</p>
 <p>哈哈哈哈哈哈哈</p>
@@ -70,8 +70,9 @@ console<span>.</span><span>log</span><span>(</span>b<span>)</span><span>;</span>
 <p>ok</p>
 <div><pre><code><span>String</span> a <span>=</span> <span>"hello world"</span><span>;</span>
 <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span>a<span>)</span><span>;</span>
+<span>//测试更新</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br></div></div>]]></content>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content>
     <author>
       <name>lvxi</name>
     </author>
