@@ -6,19 +6,12 @@
     <link>https://lvxi0605.github.io/</link>
     <description>学习、工作、生活。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 13 Aug 2021 00:51:49 GMT</pubDate>
-    <lastBuildDate>Fri, 13 Aug 2021 00:51:49 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Aug 2021 00:53:26 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Aug 2021 00:53:26 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>Copyright by lvxi</copyright>
     <category>测试</category>
-    <item>
-      <title>主页</title>
-      <link>https://lvxi0605.github.io/</link>
-      <guid>https://lvxi0605.github.io/</guid>
-      <source url="https://lvxi0605.github.io/rss.xml">主页</source>
-      <pubDate>Wed, 11 Aug 2021 13:57:31 GMT</pubDate>
-    </item>
     <item>
       <title>关于</title>
       <link>https://lvxi0605.github.io/about/</link>
@@ -58,6 +51,13 @@ console<span>.</span><span>log</span><span>(</span>b<span>)</span><span>;</span>
 <span>//测试更新</span>
 </code></pre>
 <div><span>1</span><br><span>2</span><br><span>3</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>主页</title>
+      <link>https://lvxi0605.github.io/</link>
+      <guid>https://lvxi0605.github.io/</guid>
+      <source url="https://lvxi0605.github.io/rss.xml">主页</source>
+      <pubDate>Wed, 11 Aug 2021 13:57:31 GMT</pubDate>
     </item>
   </channel>
 </rss>

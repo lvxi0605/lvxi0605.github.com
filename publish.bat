@@ -1,1 +1,1 @@
-npm run docs:build && git add . && git commit -m 'auto publish' && git push
+npm run docs:build && git add . && git commit -m "auto publish" && git push
