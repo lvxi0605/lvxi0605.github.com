@@ -29,5 +29,5 @@ heroFullScreen: false
 #     desc: 文章详细描述
 #     link: https://你的文章链接
 
-footer: 自定义你的页脚文字
+#footer: 自定义你的页脚文字
 ---

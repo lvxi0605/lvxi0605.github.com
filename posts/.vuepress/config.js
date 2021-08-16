@@ -146,7 +146,7 @@ module.exports = config({
     // },
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "但凡不能杀死你的，最终都会使你更强大",
     },
 
     copyright: {
