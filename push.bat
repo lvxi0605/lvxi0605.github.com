@@ -1,1 +1,0 @@
-git add .  && npm run docs:build && git add . && git commit -m "auto publish" && git push
