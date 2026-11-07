@@ -1,1 +1,4 @@
-# Algolia-Crawler-Verif: 2D02B8A273520C23
+User-agent: *
+Allow: /
+
+Sitemap: https://lvxi0605.github.io/sitemap.xml

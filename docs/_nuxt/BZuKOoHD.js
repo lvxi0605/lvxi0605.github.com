@@ -1,0 +1,1 @@
+import{t as e}from"./BoLZxWdT.js";import{H as t,p as n}from"./CDowsKEt.js";import{t as r}from"#entry";var i={};function a(r,i){let a=e;return t(),n(a,{page:1})}var o=r(i,[[`render`,a]]);export{o as default};
